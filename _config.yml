@@ -1,0 +1,12 @@
+# Site settings
+title: OrangeOnBlack.de
+#email: your-email@dOrangeOnBlack.de
+description: > # this means to ignore newlines until "baseurl:"
+  Programmierung · Techie-Themen · Nerd-Rezepte
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://OrangeOnBlack.de" # the base hostname & protocol for your site
+twitter_username: OrangeOnBlack
+github_username:  OrangeOnBlack
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "HTML Crashkurs"
+date:   2014-03-14 17:48:57
+categories: psa
+---
+Alle Dateien unseres <a href="https://www.youtube.com/playlist?list=PLBFF92BB325C8F4BC">HTML Crashkurses</a> gibt’s nun als Download. Er beinhaltet alle Dateien, die in den Videos 1 bis 8 erstellt wurden. Falls ihr also irgendwelche Fehler habt oder eure Seite nicht wie gewünscht funktioniert, dann könnt ihr euch die Dateien herunterladen und schauen, ob ihr euch bloß vertippt habt oder ob es am Browser liegt, der kein HTML5 unterstützt.
+
+<a href="http://orangeonblack.de/wp-content/uploads/2014/01/HTML-Crashkurs.zip"><button class="btn" style="width:50%"><i class="fa fa-download"></i> HTML Crashkurs Download</button></a>

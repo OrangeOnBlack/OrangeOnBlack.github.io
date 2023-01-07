@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "Teamspeak Server installieren"
+date:   2015-10-30 17:49:57
+categories: psa
+---
+Wenn man zum ersten Mal einen Teamspeak 3 Server installieren möchte, kann ein Video zum Thema ernorm helfen. Wenn ihr schon hier seid, dann nehmt doch <a href="https://youtu.be/8msVeGiFOX4">unser Video</a>! Außerdem gibt’s hier alle nötigen Befehle zum Nachschlagen.
+
+Hier alle Befehle aus dem Video:
+Neuen Benutzer anlegen:
+
+{% highlight bash %}
+adduser ts3
+{% endhighlight %}
+
+Als User ts3 einloggen:
+
+{% highlight bash %}
+su ts3
+{% endhighlight %}
+
+TeamSpeak 3-Server herunterladen:
+
+{% highlight bash %}
+wget http://dl.4players.de/ts/releases/3.0.11.4/teamspeak3-server_linux-amd64-3.0.11.4.tar.gz
+{% endhighlight %}
+
+Heruntergeladenes Archiv entpacken:
+
+{% highlight bash %}
+tar xf teamspeak3-server_linux-amd64-3.0.11.4.tar.gz
+{% endhighlight %}
+
+Enpackten Ordner umbenennen:
+
+{% highlight bash %}
+mv teamspeak3-server_linux-amd64-3.0.11.4 ts3_server
+{% endhighlight %}
+
+Archiv löschen:
+{% highlight bash %}
+rm teamspeak3-server_linux-amd64-3.0.11.4.tar.gz
+{% endhighlight %}
+
+In Ordner mit Server-Dateien navigieren:
+
+{% highlight bash %}
+cd ts3_server
+{% endhighlight %}
+
+Server zum 1. Mal starten. **Hier solltet ihr euch das Admin-Token etc. herauskopieren!**
+
+{% highlight bash %}
+./ts3server_minimal_runscript.sh start
+{% endhighlight %}
+
+TeamSpeak-Server dem „Autostart hinzufügen“, sodass er bei jedem Start des Servers automatisch mitgestartet wird:
+
+{% highlight bash %}
+crontab -e
+{% endhighlight %}
+
+{% highlight bash %}
+@reboot ~/ts3_server/ts3server_minimal_runscript.sh start
+{% endhighlight %}

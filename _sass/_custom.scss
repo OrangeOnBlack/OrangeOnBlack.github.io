@@ -1,0 +1,111 @@
+body {
+	background-color: #212121;
+	font-family: ubuntu, sans-serif;
+}
+
+.site-title, .site-title:visited {
+	color: #ffcf00;
+	font-weight: normal;
+}
+
+a, a:visited {
+    color: #ffcf00;
+}
+
+a:hover {
+	color: #ffcf00;
+}
+
+.page-heading, .post-meta, .rss-subscribe, h1, h2, p, footer {
+	color: #e6e6e6;
+}
+
+figure, pre, code {
+	background-color: #e6e6e6;
+}
+
+.highlight .c1 {
+	color: #e6e6e6;
+}
+
+.highlighter-rouge {
+	color: #000;
+}
+
+.page-content article ul li::before {
+	content: "\2022";
+	color: #e6e6e6;
+	font-weight: bold;
+	display: inline-block; 
+	width: 1em;
+	margin-left: -1em;
+}
+
+.site-nav {
+	display: none;
+}
+
+.btn {
+	background-color: #828282;
+	border: none;
+	color: #ffcf00;
+	padding: 12px 30px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.btn:hover {
+	background-color: #bfbfbfbf;
+}
+
+header li {
+	color: #e6e6e6;
+	list-style-type: none;
+}
+
+ol#results-container:before {
+	content: "Search results: ";
+	color: #e6e6e6;
+	font-weight: bold;
+}
+
+ol#results-container:empty::before {
+	content: "";
+}
+
+#results-container {
+	padding-left: 50px;
+}
+
+#search-container {
+	display: inline;
+	float: right;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+
+#search-input {
+	width: 150px;
+	font-size: 12pt;
+}
+
+#results-container {
+	max-width: -webkit-calc(800px - (30px * 2));
+	max-width: calc(800px - (30px * 2));
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+ol#results-container {
+	color: #e6e6e6;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    /* Overrides for MacOS Dark Mode. */
+    body {
+        background: #000;
+    }
+}
