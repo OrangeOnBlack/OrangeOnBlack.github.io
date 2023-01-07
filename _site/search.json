@@ -1,0 +1,87 @@
+[
+  
+    {
+    
+        "title"    : "Welcome to Jekyll!",
+        "url"      : "/psa/2017/06/24/welcome-to-jekyll.html",
+        "category" : "psa",
+        "tags"     : "",
+        "date"     : "2017-06-24 19:48:57 +0200",
+        "readableDate" : "24 June 2017",
+        "description" : "",
+        "content" : "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.Jekyll also offers powerful support for code snippets:123456789101112x = (&#39;a&#39;, 1, False)x = (&#39;a&#39;, 1, False)x = (&#39;a&#39;, 1, False)x = (&#39;a&#39;, 1, False)x = (&#39;a&#39;, 1, False)x = (&#39;a&#39;, 1, False)x = (&#39;a&#39;, 1, False)x = (&#39;a&#39;, 1, False)x = (&#39;a&#39;, 1, False)print awhile True:    print bx = (&#39;a&#39;, 1, False)print awhile True:    print bx = (&#39;a&#39;, 1, False)print awhile True:    print b12x = (&#39;a&#39;, 1, False)print aCheck out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll’s dedicated Help repository.",
+        "excerpt" : "You’ll find this post in your _posts directory. Go ahead and edit..."
+      
+    } ,
+  
+    {
+    
+        "title"    : "Teamspeak Server installieren",
+        "url"      : "/psa/2015/10/30/ts3-server.html",
+        "category" : "psa",
+        "tags"     : "",
+        "date"     : "2015-10-30 18:49:57 +0100",
+        "readableDate" : "30 October 2015",
+        "description" : "",
+        "content" : "Wenn man zum ersten Mal einen Teamspeak 3 Server installieren möchte, kann ein Video zum Thema ernorm helfen. Wenn ihr schon hier seid, dann nehmt doch unser Video! Außerdem gibt’s hier alle nötigen Befehle zum Nachschlagen.Hier alle Befehle aus dem Video:Neuen Benutzer anlegen:adduser ts3Als User ts3 einloggen:su ts3TeamSpeak 3-Server herunterladen:wget http://dl.4players.de/ts/releases/3.0.11.4/teamspeak3-server_linux-amd64-3.0.11.4.tar.gzHeruntergeladenes Archiv entpacken:tar xf teamspeak3-server_linux-amd64-3.0.11.4.tar.gzEnpackten Ordner umbenennen:mv teamspeak3-server_linux-amd64-3.0.11.4 ts3_serverArchiv löschen:rm teamspeak3-server_linux-amd64-3.0.11.4.tar.gzIn Ordner mit Server-Dateien navigieren:cd ts3_serverServer zum 1. Mal starten. Hier solltet ihr euch das Admin-Token etc. herauskopieren!./ts3server_minimal_runscript.sh startTeamSpeak-Server dem „Autostart hinzufügen“, sodass er bei jedem Start des Servers automatisch mitgestartet wird:crontab -e@reboot ~/ts3_server/ts3server_minimal_runscript.sh start",
+        "excerpt" : "Wenn man zum ersten Mal einen Teamspeak 3 Server installieren möchte, kann..."
+      
+    } ,
+  
+    {
+    
+        "title"    : "Python Crashkurs",
+        "url"      : "/psa/2014/12/04/python-crashkurs.html",
+        "category" : "psa",
+        "tags"     : "",
+        "date"     : "2014-12-04 18:49:57 +0100",
+        "readableDate" : "04 December 2014",
+        "description" : "",
+        "content" : "In unserem Python Crashkurs vermitteln wir Grundlagen zum Programmieren allgemein und zu Python im Speziellen. Alle Quellcodes aus den Videos gibt’s hier zum Download, um die erstellten Programme nachzuvollziehen oder abzuändern. Python Crashkurs Download",
+        "excerpt" : "In unserem Python Crashkurs vermitteln wir Grundlagen zum Programmieren allgemein und zu..."
+      
+    } ,
+  
+    {
+    
+        "title"    : "Java Crashkurs",
+        "url"      : "/psa/2014/12/04/java-crashkurs.html",
+        "category" : "psa",
+        "tags"     : "",
+        "date"     : "2014-12-04 18:49:57 +0100",
+        "readableDate" : "04 December 2014",
+        "description" : "",
+        "content" : "In unserem Java Crashkurs vermitteln wir alle Grundlagen zu Java und Objektorientierung in der Programmierung. Alle Quellcodes, die wir in den 22 Videos erstellt haben, gibt’s hier zum Download, um die erstellten Programme nachzuvollziehen oder abzuändern.In der IDE Eclipse kann man das Projekt einfach über das Datei-Menü importieren. Java Crashkurs Download",
+        "excerpt" : "In unserem Java Crashkurs vermitteln wir alle Grundlagen zu Java und Objektorientierung..."
+      
+    } ,
+  
+    {
+    
+        "title"    : "C++ Crashkurs",
+        "url"      : "/psa/2014/03/14/cpp-crashkurs.html",
+        "category" : "psa",
+        "tags"     : "",
+        "date"     : "2014-03-14 18:49:57 +0100",
+        "readableDate" : "14 March 2014",
+        "description" : "",
+        "content" : "In unserem C++ Crashkurs erläutern wir die Grundlagen der Programmiersprache C++ in 14 Haupt- und mehreren weiterführenden Videos. Alle Quelltexte der im Kurs erstellten Programme können hier heruntergeladen werden, um diese nachvollziehen zu können oder abzuändern. C++ Crashkurs Download",
+        "excerpt" : "In unserem C++ Crashkurs erläutern wir die Grundlagen der Programmiersprache C++ in..."
+      
+    } ,
+  
+    {
+    
+        "title"    : "HTML Crashkurs",
+        "url"      : "/psa/2014/03/14/html-crashkurs.html",
+        "category" : "psa",
+        "tags"     : "",
+        "date"     : "2014-03-14 18:48:57 +0100",
+        "readableDate" : "14 March 2014",
+        "description" : "",
+        "content" : "Alle Dateien unseres HTML Crashkurses gibt’s nun als Download. Er beinhaltet alle Dateien, die in den Videos 1 bis 8 erstellt wurden. Falls ihr also irgendwelche Fehler habt oder eure Seite nicht wie gewünscht funktioniert, dann könnt ihr euch die Dateien herunterladen und schauen, ob ihr euch bloß vertippt habt oder ob es am Browser liegt, der kein HTML5 unterstützt. HTML Crashkurs Download",
+        "excerpt" : "Alle Dateien unseres HTML Crashkurses gibt’s nun als Download. Er beinhaltet alle..."
+      
+    } 
+  
+]

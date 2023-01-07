@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OrangeOnBlack.de</title>
+    <description>Programmierung · Techie-Themen · Nerd-Rezepte
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 07 Jan 2023 16:53:45 +0100</pubDate>
+    <lastBuildDate>Sat, 07 Jan 2023 16:53:45 +0100</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 24 Jun 2017 19:48:57 +0200</pubDate>
+        <link>http://localhost:4000/psa/2017/06/24/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/psa/2017/06/24/welcome-to-jekyll.html</guid>
+        
+        
+        <category>psa</category>
+        
+      </item>
+    
+      <item>
+        <title>Teamspeak Server installieren</title>
+        <description>&lt;p&gt;Wenn man zum ersten Mal einen Teamspeak 3 Server installieren möchte, kann ein Video zum Thema ernorm helfen. Wenn ihr schon hier seid, dann nehmt doch &lt;a href=&quot;https://youtu.be/8msVeGiFOX4&quot;&gt;unser Video&lt;/a&gt;! Außerdem gibt’s hier alle nötigen Befehle zum Nachschlagen.&lt;/p&gt;
+
+&lt;p&gt;Hier alle Befehle aus dem Video:
+Neuen Benutzer anlegen:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;adduser ts3&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Als User ts3 einloggen:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;su ts3&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;TeamSpeak 3-Server herunterladen:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;wget http://dl.4players.de/ts/releases/3.0.11.4/teamspeak3-server_linux-amd64-3.0.11.4.tar.gz&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Heruntergeladenes Archiv entpacken:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;tar &lt;/span&gt;xf teamspeak3-server_linux-amd64-3.0.11.4.tar.gz&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Enpackten Ordner umbenennen:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;mv &lt;/span&gt;teamspeak3-server_linux-amd64-3.0.11.4 ts3_server&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Archiv löschen:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;rm &lt;/span&gt;teamspeak3-server_linux-amd64-3.0.11.4.tar.gz&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In Ordner mit Server-Dateien navigieren:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ts3_server&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Server zum 1. Mal starten. &lt;strong&gt;Hier solltet ihr euch das Admin-Token etc. herauskopieren!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;./ts3server_minimal_runscript.sh start&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;TeamSpeak-Server dem „Autostart hinzufügen“, sodass er bei jedem Start des Servers automatisch mitgestartet wird:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;crontab &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;@reboot ~/ts3_server/ts3server_minimal_runscript.sh start&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Fri, 30 Oct 2015 18:49:57 +0100</pubDate>
+        <link>http://localhost:4000/psa/2015/10/30/ts3-server.html</link>
+        <guid isPermaLink="true">http://localhost:4000/psa/2015/10/30/ts3-server.html</guid>
+        
+        
+        <category>psa</category>
+        
+      </item>
+    
+      <item>
+        <title>Python Crashkurs</title>
+        <description>&lt;p&gt;In unserem &lt;a href=&quot;https://www.youtube.com/playlist?list=PL5bFwGzHA_6kH79dst9SCEz2j99IaDNv9&quot;&gt;Python Crashkurs&lt;/a&gt; vermitteln wir Grundlagen zum Programmieren allgemein und zu Python im Speziellen. Alle Quellcodes aus den Videos gibt’s hier zum Download, um die erstellten Programme nachzuvollziehen oder abzuändern.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://orangeonblack.de/wp-content/uploads/2018/01/Python-Crashkurs.zip&quot;&gt;&lt;button class=&quot;btn&quot; style=&quot;width:50%&quot;&gt;&lt;i class=&quot;fa fa-download&quot;&gt;&lt;/i&gt; Python Crashkurs Download&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 Dec 2014 18:49:57 +0100</pubDate>
+        <link>http://localhost:4000/psa/2014/12/04/python-crashkurs.html</link>
+        <guid isPermaLink="true">http://localhost:4000/psa/2014/12/04/python-crashkurs.html</guid>
+        
+        
+        <category>psa</category>
+        
+      </item>
+    
+      <item>
+        <title>Java Crashkurs</title>
+        <description>&lt;p&gt;In unserem &lt;a href=&quot;https://www.youtube.com/playlist?list=PL5bFwGzHA_6l3qnv4_vauF9wMSO8orMEk&quot;&gt;Java Crashkurs&lt;/a&gt; vermitteln wir alle Grundlagen zu Java und Objektorientierung in der Programmierung. Alle Quellcodes, die wir in den 22 Videos erstellt haben, gibt’s hier zum Download, um die erstellten Programme nachzuvollziehen oder abzuändern.&lt;/p&gt;
+
+&lt;p&gt;In der IDE Eclipse kann man das Projekt einfach über das Datei-Menü importieren.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://orangeonblack.de/wp-content/uploads/2014/12/Java-Crashkurs.zip&quot;&gt;&lt;button class=&quot;btn&quot; style=&quot;width:50%&quot;&gt;&lt;i class=&quot;fa fa-download&quot;&gt;&lt;/i&gt; Java Crashkurs Download&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 Dec 2014 18:49:57 +0100</pubDate>
+        <link>http://localhost:4000/psa/2014/12/04/java-crashkurs.html</link>
+        <guid isPermaLink="true">http://localhost:4000/psa/2014/12/04/java-crashkurs.html</guid>
+        
+        
+        <category>psa</category>
+        
+      </item>
+    
+      <item>
+        <title>C++ Crashkurs</title>
+        <description>&lt;p&gt;In unserem &lt;a href=&quot;https://www.youtube.com/playlist?list=PL240102EBE740E231&quot;&gt;C++ Crashkurs&lt;/a&gt; erläutern wir die Grundlagen der Programmiersprache C++ in 14 Haupt- und mehreren weiterführenden Videos. Alle Quelltexte der im Kurs erstellten Programme können hier heruntergeladen werden, um diese nachvollziehen zu können oder abzuändern.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://orangeonblack.de/wp-content/uploads/2014/01/C++-Crashkurs.zip&quot;&gt;&lt;button class=&quot;btn&quot; style=&quot;width:50%&quot;&gt;&lt;i class=&quot;fa fa-download&quot;&gt;&lt;/i&gt; C++ Crashkurs Download&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Mar 2014 18:49:57 +0100</pubDate>
+        <link>http://localhost:4000/psa/2014/03/14/cpp-crashkurs.html</link>
+        <guid isPermaLink="true">http://localhost:4000/psa/2014/03/14/cpp-crashkurs.html</guid>
+        
+        
+        <category>psa</category>
+        
+      </item>
+    
+      <item>
+        <title>HTML Crashkurs</title>
+        <description>&lt;p&gt;Alle Dateien unseres &lt;a href=&quot;https://www.youtube.com/playlist?list=PLBFF92BB325C8F4BC&quot;&gt;HTML Crashkurses&lt;/a&gt; gibt’s nun als Download. Er beinhaltet alle Dateien, die in den Videos 1 bis 8 erstellt wurden. Falls ihr also irgendwelche Fehler habt oder eure Seite nicht wie gewünscht funktioniert, dann könnt ihr euch die Dateien herunterladen und schauen, ob ihr euch bloß vertippt habt oder ob es am Browser liegt, der kein HTML5 unterstützt.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://orangeonblack.de/wp-content/uploads/2014/01/HTML-Crashkurs.zip&quot;&gt;&lt;button class=&quot;btn&quot; style=&quot;width:50%&quot;&gt;&lt;i class=&quot;fa fa-download&quot;&gt;&lt;/i&gt; HTML Crashkurs Download&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Mar 2014 18:48:57 +0100</pubDate>
+        <link>http://localhost:4000/psa/2014/03/14/html-crashkurs.html</link>
+        <guid isPermaLink="true">http://localhost:4000/psa/2014/03/14/html-crashkurs.html</guid>
+        
+        
+        <category>psa</category>
+        
+      </item>
+    
+  </channel>
+</rss>
