@@ -1,0 +1,41 @@
+<p>Wenn man zum ersten Mal einen Teamspeak 3 Server installieren möchte, kann ein Video zum Thema ernorm helfen. Wenn ihr schon hier seid, dann nehmt doch <a href="https://youtu.be/8msVeGiFOX4">unser Video</a>! Außerdem gibt’s hier alle nötigen Befehle zum Nachschlagen.</p>
+
+<p>Hier alle Befehle aus dem Video:
+Neuen Benutzer anlegen:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">adduser ts3</code></pre></figure>
+
+<p>Als User ts3 einloggen:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">su ts3</code></pre></figure>
+
+<p>TeamSpeak 3-Server herunterladen:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">wget http://dl.4players.de/ts/releases/3.0.11.4/teamspeak3-server_linux-amd64-3.0.11.4.tar.gz</code></pre></figure>
+
+<p>Heruntergeladenes Archiv entpacken:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">tar </span>xf teamspeak3-server_linux-amd64-3.0.11.4.tar.gz</code></pre></figure>
+
+<p>Enpackten Ordner umbenennen:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">mv </span>teamspeak3-server_linux-amd64-3.0.11.4 ts3_server</code></pre></figure>
+
+<p>Archiv löschen:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">rm </span>teamspeak3-server_linux-amd64-3.0.11.4.tar.gz</code></pre></figure>
+
+<p>In Ordner mit Server-Dateien navigieren:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd </span>ts3_server</code></pre></figure>
+
+<p>Server zum 1. Mal starten. <strong>Hier solltet ihr euch das Admin-Token etc. herauskopieren!</strong></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">./ts3server_minimal_runscript.sh start</code></pre></figure>
+
+<p>TeamSpeak-Server dem „Autostart hinzufügen“, sodass er bei jedem Start des Servers automatisch mitgestartet wird:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">crontab <span class="nt">-e</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">@reboot ~/ts3_server/ts3server_minimal_runscript.sh start</code></pre></figure>
+
