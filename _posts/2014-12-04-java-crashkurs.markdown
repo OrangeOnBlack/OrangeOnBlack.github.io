@@ -8,4 +8,4 @@ In unserem <a href="https://www.youtube.com/playlist?list=PL5bFwGzHA_6l3qnv4_vau
 
 In der IDE Eclipse kann man das Projekt einfach über das Datei-Menü importieren.
 
-<a href="http://orangeonblack.de/wp-content/uploads/2014/12/Java-Crashkurs.zip"><button class="btn" style="width:50%"><i class="fa fa-download"></i> Java Crashkurs Download</button></a>
+<a href="../../../../dl/Java-Crashkurs.zip"><button class="btn" style="width:50%"><i class="fa fa-download"></i> Java Crashkurs Download</button></a>
