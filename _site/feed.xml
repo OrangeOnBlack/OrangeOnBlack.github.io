@@ -4,10 +4,10 @@
     <title>OrangeOnBlack.de</title>
     <description>Programmierung · Techie-Themen · Nerd-Rezepte
 </description>
-    <link>http://OrangeOnBlack.de/</link>
-    <atom:link href="http://OrangeOnBlack.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 Jan 2023 11:47:40 +0100</pubDate>
-    <lastBuildDate>Sat, 21 Jan 2023 11:47:40 +0100</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 22 Jan 2023 09:16:00 +0100</pubDate>
+    <lastBuildDate>Sun, 22 Jan 2023 09:16:00 +0100</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -55,8 +55,8 @@ Neuen Benutzer anlegen:&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 30 Oct 2015 18:49:57 +0100</pubDate>
-        <link>http://OrangeOnBlack.de/psa/2015/10/30/ts3-server.html</link>
-        <guid isPermaLink="true">http://OrangeOnBlack.de/psa/2015/10/30/ts3-server.html</guid>
+        <link>http://localhost:4000/psa/2015/10/30/ts3-server.html</link>
+        <guid isPermaLink="true">http://localhost:4000/psa/2015/10/30/ts3-server.html</guid>
         
         
         <category>psa</category>
@@ -70,8 +70,8 @@ Neuen Benutzer anlegen:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;../../../../dl/Python-Crashkurs.zip&quot;&gt;&lt;button class=&quot;btn&quot; style=&quot;width:50%&quot;&gt;&lt;i class=&quot;fa fa-download&quot;&gt;&lt;/i&gt; Python Crashkurs Download&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 04 Dec 2014 18:49:57 +0100</pubDate>
-        <link>http://OrangeOnBlack.de/psa/2014/12/04/python-crashkurs.html</link>
-        <guid isPermaLink="true">http://OrangeOnBlack.de/psa/2014/12/04/python-crashkurs.html</guid>
+        <link>http://localhost:4000/psa/2014/12/04/python-crashkurs.html</link>
+        <guid isPermaLink="true">http://localhost:4000/psa/2014/12/04/python-crashkurs.html</guid>
         
         
         <category>psa</category>
@@ -87,8 +87,8 @@ Neuen Benutzer anlegen:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;../../../../dl/Java-Crashkurs.zip&quot;&gt;&lt;button class=&quot;btn&quot; style=&quot;width:50%&quot;&gt;&lt;i class=&quot;fa fa-download&quot;&gt;&lt;/i&gt; Java Crashkurs Download&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 04 Dec 2014 18:49:57 +0100</pubDate>
-        <link>http://OrangeOnBlack.de/psa/2014/12/04/java-crashkurs.html</link>
-        <guid isPermaLink="true">http://OrangeOnBlack.de/psa/2014/12/04/java-crashkurs.html</guid>
+        <link>http://localhost:4000/psa/2014/12/04/java-crashkurs.html</link>
+        <guid isPermaLink="true">http://localhost:4000/psa/2014/12/04/java-crashkurs.html</guid>
         
         
         <category>psa</category>
@@ -102,8 +102,8 @@ Neuen Benutzer anlegen:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;../../../../dl/C++-Crashkurs.zip&quot;&gt;&lt;button class=&quot;btn&quot; style=&quot;width:50%&quot;&gt;&lt;i class=&quot;fa fa-download&quot;&gt;&lt;/i&gt; C++ Crashkurs Download&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 14 Mar 2014 18:49:57 +0100</pubDate>
-        <link>http://OrangeOnBlack.de/psa/2014/03/14/cpp-crashkurs.html</link>
-        <guid isPermaLink="true">http://OrangeOnBlack.de/psa/2014/03/14/cpp-crashkurs.html</guid>
+        <link>http://localhost:4000/psa/2014/03/14/cpp-crashkurs.html</link>
+        <guid isPermaLink="true">http://localhost:4000/psa/2014/03/14/cpp-crashkurs.html</guid>
         
         
         <category>psa</category>
@@ -117,8 +117,8 @@ Neuen Benutzer anlegen:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;../../../../dl/HTML-Crashkurs.zip&quot;&gt;&lt;button class=&quot;btn&quot; style=&quot;width:50%&quot;&gt;&lt;i class=&quot;fa fa-download&quot;&gt;&lt;/i&gt; HTML Crashkurs Download&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 14 Mar 2014 18:48:57 +0100</pubDate>
-        <link>http://OrangeOnBlack.de/psa/2014/03/14/html-crashkurs.html</link>
-        <guid isPermaLink="true">http://OrangeOnBlack.de/psa/2014/03/14/html-crashkurs.html</guid>
+        <link>http://localhost:4000/psa/2014/03/14/html-crashkurs.html</link>
+        <guid isPermaLink="true">http://localhost:4000/psa/2014/03/14/html-crashkurs.html</guid>
         
         
         <category>psa</category>
