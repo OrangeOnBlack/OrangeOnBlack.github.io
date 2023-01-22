@@ -250,7 +250,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .highlight .il { color: #099; }
 
-body { background-color: #212121; font-family: ubuntu, sans-serif; color: #e6e6e6; }
+body { background-color: #212121; font-family: ubuntu, sans-serif; }
 
 .site-title, .site-title:visited { color: #ffcf00; font-weight: normal; }
 
@@ -288,7 +288,7 @@ ol#results-container:empty::before { content: ""; }
 
 #results-container { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
 
-ol#results-container { color: #e6e6e6; }
+ol#results-container, ul#results-container, li { color: #e6e6e6; }
 
 @media (prefers-color-scheme: dark) { /* Overrides for MacOS Dark Mode. */ body { background: #000; } }
 

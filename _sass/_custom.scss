@@ -1,7 +1,6 @@
 body {
 	background-color: #212121;
 	font-family: ubuntu, sans-serif;
-	color: #e6e6e6;
 }
 
 .site-title, .site-title:visited {
@@ -99,7 +98,7 @@ ol#results-container:empty::before {
 	padding-left: 30px;
 }
 
-ol#results-container {
+ol#results-container, ul#results-container, li {
 	color: #e6e6e6;
 }
 
