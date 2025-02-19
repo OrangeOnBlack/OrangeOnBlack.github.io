@@ -3,6 +3,7 @@ layout: page
 title: Anbieterkennzeichnung
 permalink: /Anbieterkennzeichnung/
 exclude_from_nav: true
+published: false
 ---
 
 Anbieterkennzeichnung gemäß § 5 TMG sowie verantwortlich für den Inhalt nach § 55 Abs. 2 RStV (sofern nicht anders angegeben):
